@@ -1,0 +1,29 @@
+.auth {
+    margin-top: 10em;
+   
+
+    h1 {
+        text-align: center;
+        color: rgb(252, 0, 50);
+        margin-bottom: 1em;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 1em
+    }
+
+    background-color:  #4cb69f;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    span {
+        font-size: 1.2em;
+    }
+}
+.password-strength{
+    color: red;
+}

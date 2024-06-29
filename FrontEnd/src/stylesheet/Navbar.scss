@@ -1,0 +1,12 @@
+.head{
+  color: red;
+  font-size: 1.6em;
+  
+}
+.link-style-login{
+  color: red;
+  &:hover{
+    color:red;
+    text-decoration: underline;
+  }
+}

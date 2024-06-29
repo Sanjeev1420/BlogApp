@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+*{
+  font-family: "Roboto", sans-serif;
+  
+  /* Add other styles for the head class if needed */
+}
+
+
+
+/* Add other styles as needed for different elements */
