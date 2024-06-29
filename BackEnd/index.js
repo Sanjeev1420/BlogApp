@@ -11,7 +11,7 @@ app.use(formData.parse());
 
 app.use(
   cors({
-    origin: ["http://localhost:3000","https://mindverse.netlify.app"],
+    origin: ["http://localhost:3000","https://mindverse.netlify.app","https://blog-app-ten-green.vercel.app"],
     credentials: true,
   })
 );
